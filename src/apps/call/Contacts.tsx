@@ -236,10 +236,10 @@ export function Contacts(props: { setCallIntent: (intent: AppCallIntent) => void
       <Switch checked={showConversations} sx={{ ml: 'auto' }} />
     </MenuItem>
 
-    {/* <MenuItem onClick={toggleShowSupport}>
+    <MenuItem onClick={toggleShowSupport}>
       Show Support
       <Switch checked={showSupport} sx={{ ml: 'auto' }} />
-    </MenuItem> */}
+    </MenuItem>
 
   </OptimaPanelGroup>, [grayUI, showConversations, showSupport, toggleGrayUI, toggleShowConversations, toggleShowSupport]);
 
